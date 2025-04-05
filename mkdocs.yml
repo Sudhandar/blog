@@ -1,0 +1,64 @@
+site_name: Sudhandar Balakrishnan
+site_description: AI consulting services
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - navigation.indexes
+    - header.autohide
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    social:
+      - fontawesome/brands/twitter
+      - fontawesome/brands/linkedin
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: 
+    - Overview: index.md
+    - Latest Insights: '#latest-insights'
+    - Client Testimonials: '#client-testimonials'
+    - About Me: '#about-me'
+  - Consulting: consulting.md
+  - Blog: blog.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/bsudhandar
+      name: Follow me on X
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sudhandar/
+      name: Connect with me on LinkedIn
+
+extra_css:
+  - stylesheets/extra.css 

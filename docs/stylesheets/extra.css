@@ -1,0 +1,161 @@
+.blog-card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.2s;
+}
+
+.blog-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-meta {
+    font-size: 0.9rem;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 0.5rem;
+}
+
+.testimonial {
+    background: var(--md-default-bg-color);
+    border-left: 4px solid var(--md-primary-fg-color);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.testimonial-company {
+    color: var(--md-default-fg-color--light);
+    font-size: 0.9rem;
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--md-primary-fg-color);
+    color: #ffffff !important;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s;
+    font-weight: 500;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.cta-button:hover {
+    background-color: var(--md-primary-fg-color--dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta-secondary {
+    background-color: transparent;
+    color: var(--md-primary-fg-color) !important;
+    border: 2px solid var(--md-primary-fg-color);
+}
+
+.cta-secondary:hover {
+    background-color: var(--md-primary-fg-color);
+    color: #ffffff !important;
+}
+
+.profile-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-content {
+    flex: 1;
+}
+
+/* About Me section styles */
+.md-typeset h2 {
+    color: var(--md-primary-fg-color);
+    margin-top: 2rem;
+}
+
+.md-typeset h3 {
+    color: var(--md-default-fg-color);
+    margin-top: 1.5rem;
+}
+
+.md-typeset ul li {
+    margin-bottom: 1rem;
+}
+
+.md-typeset ul li ul {
+    margin-top: 0.5rem;
+}
+
+.md-typeset ul li strong {
+    color: var(--md-primary-fg-color);
+}
+
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 1rem;
+    }
+
+    .button-group {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-button {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
+/* Footer Social Icons */
+.md-social {
+    margin-top: 1rem;
+}
+
+.md-social__link {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    transition: all 0.2s;
+}
+
+.md-social__link:hover {
+    transform: translateY(-2px);
+    color: var(--md-primary-fg-color);
+}
+
+/* Ensure footer is always at bottom */
+.md-main {
+    min-height: calc(100vh - 200px);
+} 
