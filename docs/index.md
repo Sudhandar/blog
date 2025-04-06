@@ -11,7 +11,7 @@ With a robust foundation in Artificial Intelligence and Natural Language Process
 <div class="grid cards" markdown>
 
 - [:fontawesome-solid-rocket: Explore Services](consulting.md)
-- [:fontawesome-solid-calendar: Book a Free Consultation](consulting.md#book-consultation)
+- [:fontawesome-solid-calendar: Book a Free Consultation](https://cal.com/sudhandar/discoverycall)
 
 </div>
 </div>

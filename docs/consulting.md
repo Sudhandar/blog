@@ -9,7 +9,8 @@
 - **Automation Savings:** Automate 15-40 hours of manual work weekly
 - **System Performance:** Improve system response time by 40-70%
 
-[Request a Consultation](https://calendly.com){: .cta-button }
+[Request a Consultation](mailto:sudhandar@gmail.com){: .cta-button }
+[:fontawesome-solid-calendar: Schedule a Call](https://cal.com/sudhandar/discoverycall){: .cta-button}
 
 ## Clients and Testimonials
 
@@ -39,6 +40,6 @@
 Contact me to discuss the best engagement model for your organization.
 
 <div class="button-group" markdown>
-[Request a Consultation](https://calendly.com){: .cta-button }
-[Schedule a Call](https://calendly.com){: .cta-button .cta-secondary }
+[Request a Consultation](sudhandar@gmail.com){: .cta-button }
+[:fontawesome-solid-calendar: Schedule a Call](https://cal.com/sudhandar/discoverycall){: .cta-button}
 </div> 
