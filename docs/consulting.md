@@ -40,6 +40,6 @@
 Contact me to discuss the best engagement model for your organization.
 
 <div class="button-group" markdown>
-[Request a Consultation](sudhandar@gmail.com){: .cta-button }
+[Request a Consultation](mailto:sudhandar@gmail.com){: .cta-button }
 [:fontawesome-solid-calendar:Schedule a Call](https://cal.com/sudhandar/discoverycall){: .cta-button}
 </div> 
