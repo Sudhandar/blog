@@ -1,6 +1,6 @@
 site_name: Sudhandar Balakrishnan
 site_description: AI consulting services
-site_url: https://sudhandar.github.io
+site_url: https://sudhandar.github.io/
 theme:
   name: material
   features:
