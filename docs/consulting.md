@@ -12,20 +12,24 @@
 [Request a Consultation](mailto:sudhandar@gmail.com){: .cta-button }
 [:fontawesome-solid-calendar: Schedule a Call](https://cal.com/sudhandar/discoverycall){: .cta-button}
 
-## Clients and Testimonials
+## Recommendations and Testimonials
 
 <div class="testimonial" markdown>
-"The AI consultation transformed our business processes. We've seen a 40% increase in efficiency since implementation."
+"Sudhandar is a Data Scientist driven to make impactful contributions in all of his projects. He is a strong team-player, a great communicator and is always able to apply newly learned technical concepts to work. He is someone that can get the job done and welcomes challenges. His initiative and hard work, among many other qualities, consistently set him apart as a dedicated and reliable individual who always goes above and beyond to achieve excellent results."
 
-<div class="testimonial-author">Sarah Williams</div>
-<div class="testimonial-company">Tech Innovations Inc.</div>
+<div class="testimonial-author">Ali Mahmood</div>
+<div class="testimonial-company">Sr. Data Scientist, Loblaws</div>
 </div>
 
 <div class="testimonial" markdown>
-"Clear, actionable advice that helped us navigate the complex world of AI integration. Highly recommended!"
+"I had the pleasure of working closely with Sudhandar over the past two years, and I can confidently say that he is an exceptional data scientist and an invaluable asset to any team. His ability to tackle complex business challenges with data-driven solutions has made a significant impact on our projects and our stakeholders.
 
-<div class="testimonial-author">Michael Chen</div>
-<div class="testimonial-company">Global Solutions Ltd.</div>
+Sudhandar combines a strong technical background in machine learning and natural language processing with a keen understanding of business needs. His work on leveraging state-of-the-art LLM models and NLP techniques has led to innovative solutions that have greatly improved our the data quality of our projects. Whether it’s designing robust ETL pipelines, developing advanced machine learning models, or delivering strategic recommendations, he approaches every task with precision and a commitment to excellence.
+
+He is a fantastic team player. He is dependable, collaborative, and always willing to lend a hand to help his colleagues succeed. His proactive approach and leadership skills have also made him an effective team member, ensuring that we stay organized and focused on our goals. I am confident that Sudhandar will continue to achieve great things in his career, and I would highly recommend him to any organization looking for a talented and dedicated data scientist who can make a real difference."
+
+<div class="testimonial-author">Jonathan Erez</div>
+<div class="testimonial-company">Sr. Data Scientist, Deloitte</div>
 </div>
 
 ## Engagements and Pricing

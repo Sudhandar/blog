@@ -1,6 +1,6 @@
 # Latest Insights
 
-## Business
+## Case Studies
 
 <div class="blog-card" markdown>
 
@@ -33,20 +33,3 @@ Generative AI is revolutionizing how businesses create content, design products,
 
 [Read More](#){: .cta-button }
 </div>
-
-## Ethics
-
-<div class="blog-card" markdown>
-
-### Ethical Considerations in AI Development {: #ethical-considerations-in-ai-development }
-
-Understanding the ethical implications of developing and deploying AI systems.
-
-<div class="blog-meta">
-Mar 20, 2025 • 6 min read
-</div>
-
-As AI becomes more prevalent in business operations, it's crucial to consider the ethical implications of its development and deployment. This article discusses key considerations and best practices.
-
-[Read More](#){: .cta-button }
-</div> 
