@@ -174,7 +174,7 @@
 }
 
 .results-grid > ul > li {
-    background: rgba(63, 81, 181, 0.1);
+    background: transparent !important;
     padding: 1.5rem;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -183,8 +183,8 @@
 }
 
 .results-grid > ul > li:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(63, 81, 181, 0.15);
+    background: transparent !important;
+    transform: none !important;
 }
 
 .results-grid > ul > li > strong {
@@ -200,4 +200,6 @@
     color: var(--md-default-fg-color);
     font-size: 0.95rem;
     line-height: 1.6;
-} 
+}
+
+/* Clean up unnecessary sidebar styles */ 

@@ -45,19 +45,11 @@ Is your healthcare organization struggling to transform patient care and operati
 
 - **Case Study**
     
-    ### Implementing AI in Small Businesses
+    ### The 15-Minute Weekly Report That Saved Millions in Regulatory Fines
     
-    Learn how small businesses can leverage AI to improve operations and customer experience.
+    Building an AI compliance pipeline
     
-    [:octicons-arrow-right-24: Read more](blog.md#implementing-ai-in-small-businesses)
-
-- **Technology**
-    
-    ### The Future of Generative AI
-    
-    Exploring the potential and limitations of generative AI technologies.
-    
-    [:octicons-arrow-right-24: Read more](blog.md#the-future-of-generative-ai)
+    [:octicons-arrow-right-24: Read more](blog/compliance-pipeline-blog-markdown.md)
 
 </div>
 
@@ -114,3 +106,11 @@ After delivering significant results in enterprise healthcare AI implementations
 
 - **Masters in Computer Engineering Specializing in Artificial Intelligence**, Queen's University, Canada
     - Thesis: "Prefix tuning language models on noisy financial data"
+
+
+<div class="grid cards" markdown>
+
+- [:fontawesome-solid-rocket: Explore Services](consulting.md)
+- [:fontawesome-solid-calendar: Book a Free Consultation](https://cal.com/sudhandar/discoverycall)
+
+</div>

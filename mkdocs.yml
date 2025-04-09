@@ -11,6 +11,7 @@ theme:
     - search.suggest
     - navigation.indexes
     - header.autohide
+    - toc.permalink
   palette:
     - scheme: default
       primary: indigo
