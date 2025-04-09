@@ -21,10 +21,6 @@ Is your healthcare organization struggling to transform patient care and operati
 
 <div class="results-grid" markdown>
 
-- **✓ 86% Automation Accuracy**
-    
-    Medication review coverage expanded from 1,000 to 700,000 forms
-
 - **✓ 50% Cost Reduction**
     
     Through elimination of manual processes and workflow optimization
@@ -36,6 +32,10 @@ Is your healthcare organization struggling to transform patient care and operati
 - **✓ 300% Improvement**
     
     In critical condition identification enabling early interventions
+
+- **✓ 86% Automation Accuracy**
+    
+    Audit coverage expanded from 1,000 to 700,000 forms
 
 </div>
 

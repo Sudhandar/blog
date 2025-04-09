@@ -6,9 +6,9 @@ read_time: 5 min
 
 # The 15-Minute Weekly Report That Saved Millions in Regulatory Fines: Building an AI Compliance Pipeline
 
-**In the healthcare industry, non-compliance doesn't just mean paperwork problems—it means potential fines in the millions of dollars.** When an organization discovered they were at risk of massive regulatory penalties due to improper documentation, they didn't have time for a traditional solution.
+In the healthcare industry, non-compliance doesn't just mean paperwork problems—it means potential fines in the millions of dollars. When an organization discovered they were at risk of massive regulatory penalties due to improper documentation, they didn't have time for a traditional solution.
 
-I'll share exactly how I built an AI compliance pipeline that achieved 86% compliance accuracy, saved 32 hours of manual work weekly, and protected the business from devastating regulatory fines—all through a simple 15-minute weekly report.
+I'll share exactly how I built an AI compliance pipeline that protected the business from devastating regulatory fines, saved 32 hours of manual work weekly, and achieved 86% compliance accuracy—all through a simple 15-minute weekly audit report.
 
 ## The Regulatory Crisis Most Healthcare Companies Are Ignoring
 
