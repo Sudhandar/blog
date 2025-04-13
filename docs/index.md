@@ -51,6 +51,14 @@ Is your healthcare organization struggling to transform patient care and operati
     
     [:octicons-arrow-right-24: Read more](blog/compliance-pipeline-blog-markdown.md)
 
+- **LLM Evaluation**
+    
+    ### Stop Second-Guessing Your AI: A Proven 4-Step Framework
+    
+    Reducing Review Time From Weeks to Hours While Boosting Performance by 20%
+    
+    [:octicons-arrow-right-24: Read more](blog/llm-eval-blog.md)
+
 </div>
 
 ## Recommendations and Testimonials {: #client-testimonials }
