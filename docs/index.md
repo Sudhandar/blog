@@ -63,6 +63,10 @@ Is your healthcare organization struggling to transform patient care and operati
 
 ## Recommendations and Testimonials {: #client-testimonials }
 
+<script type="text/javascript" src="https://testimonial.to/js/iframeResizer.min.js"></script>
+<iframe id="testimonialto-embed-text--ONt8gzMLoq_4q6iicRW" src="https://embed-v2.testimonial.to/text/-ONt8gzMLoq_4q6iicRW" frameborder="0" scrolling="no" width="100%"></iframe>
+<script type="text/javascript">iFrameResize({log: false, checkOrigin: false}, "#testimonialto-embed-text--ONt8gzMLoq_4q6iicRW");</script>
+
 <div class="testimonial" markdown>
 "Sudhandar is a Data Scientist driven to make impactful contributions in all of his projects. He is a strong team-player, a great communicator and is always able to apply newly learned technical concepts to work. He is someone that can get the job done and welcomes challenges. His initiative and hard work, among many other qualities, consistently set him apart as a dedicated and reliable individual who always goes above and beyond to achieve excellent results."
 

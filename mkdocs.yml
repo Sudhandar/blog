@@ -47,6 +47,7 @@ nav:
   - Blog:
       - Case Study:
           - "The 15-Minute Weekly Report That Saved Millions in Regulatory Fines": blog/compliance-pipeline-blog-markdown.md
+          - "Steal this LLM Workflow to book 60% more calls in your LinkedIn Outreach": blog/linkedin-outreach-overview.md
       - LLM Evaluation:
           - "Stop Second-Guessing Your AI: A Proven 4-Step Framework to Quantify Trust and Accelerate Deployments": blog/llm-eval-blog.md
 

@@ -48,6 +48,8 @@ Instead of the traditional approach, I built an end-to-end audit review pipeline
 
 **Here's how the system works:**
 
+![AI Compliance Pipeline Workflow](workflow-diagram.png)
+
 1. **Data Retrieval**: The system connects to the database where service documentation forms are stored, pulling in the free-text justifications entered by the service providers.
 
 2. **AI-Powered Review**: Using a Generative AI model, each form is analyzed against the specific regulatory requirements. The AI doesn't just look for keywords but understands the context and determines if the justification meets the standards.
@@ -58,7 +60,7 @@ Instead of the traditional approach, I built an end-to-end audit review pipeline
 
 5. **Automated Reporting**: The system generates a weekly 15-minute report highlighting non-compliant service documentation, summarizing trends, and providing actionable insights for management.
 
-![AI Compliance Pipeline Workflow](workflow-diagram.png)
+
 
 ## The Results: Beyond Just Avoiding Fines
 
