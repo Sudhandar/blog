@@ -50,7 +50,7 @@ nav:
           - "Steal this LLM Workflow to book 60% more calls in your LinkedIn Outreach": blog/linkedin-outreach-overview.md
       - Blog:
           - "Stop Second-Guessing Your AI: A Proven 4-Step Framework to Quantify Trust and Accelerate Deployments": blog/llm-eval-blog.md
-          - "How to Debug Your RAG Before It’s Too Late": blog/rag-retrieval-blog.md
+          - "How to Debug Your RAG Before It's Too Late": blog/rag-retrieval-blog.md
 
 extra:
   social:

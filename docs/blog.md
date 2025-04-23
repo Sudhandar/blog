@@ -6,4 +6,4 @@
 
 ## Blog
 - [Stop Second-Guessing Your AI: A Proven 4-Step Framework to Quantify Trust and Accelerate Deployments](blog/llm-eval-blog.md) - Reducing Review Time From Weeks to Hours While Boosting Performance by 20%
-- [How to Debug Your RAG Before It’s Too Late](blog/rag-retrieval-blog.md) - A Practical Framework to Identify Retrieval Failures
+- [How to Debug Your RAG Before It's Too Late](blog/rag-retrieval-blog.md) - Enhancing AI Performance Through Advanced Retrieval Techniques
