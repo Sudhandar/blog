@@ -200,4 +200,34 @@
     color: var(--md-default-fg-color);
     font-size: 0.95rem;
     line-height: 1.6;
+}
+
+/* Blog list styles */
+.blog-list {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-list li {
+    margin-bottom: 2rem;
+}
+
+.blog-list a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--md-primary-fg-color);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.blog-list a:hover {
+    text-decoration: underline;
+}
+
+.blog-list .subtitle {
+    color: var(--md-default-fg-color--light);
+    font-size: 0.9rem;
+    margin-left: 0;
+    display: block;
 } 
