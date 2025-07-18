@@ -66,7 +66,7 @@ I'll show you exactly which processes are limiting your scale and how to automat
 
 !!! tip "What You'll Achieve:"
     - **✓ Scale to 3x more clients** - Handle growth without proportional staff increases
-    - **✓ Save 10+ hours weekly** - Eliminate personal involvement in routine operations
+    - **✓ Save 20+ hours weekly** - Eliminate personal involvement in routine operations
     - **✓ 8-week implementation** - Start scaling months before competitors
     - **✓ Business runs without you** - Travel, take time off, focus on strategy
     - **✓ Capture growth opportunities** - Never turn away business due to capacity limits
