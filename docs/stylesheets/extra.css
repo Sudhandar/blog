@@ -97,7 +97,7 @@
 }
 
 .md-typeset h3 {
-    color: var(--md-default-fg-color);
+    color: var(--md-primary-fg-color);
     margin-top: 1.5rem;
 }
 
@@ -230,4 +230,52 @@
     font-size: 0.9rem;
     margin-left: 0;
     display: block;
+}
+/* Section-specific font sizes */
+#growth-bottlenecks-section .md-admonition__content ul li,
+#why-wait-section .md-admonition__content ul li,
+#what-you-will-achieve-section .md-admonition__content ul li,
+#why-wait-section .md-admonition__content p {
+    font-size: 0.8rem;
+}
+
+#what-is-at-stake-section .md-admonition__content ul li {
+    font-size: 0.8rem;
+}
+
+/* Diagnostic - this should make ALL text in these sections huge */
+#growth-bottlenecks-section *,
+#what-is-at-stake-section *,
+#why-wait-section *,
+#what-you-will-achieve-section * {
+    font-size: 0.8rem;
 } 
+
+/* Center text in grid cards */
+.grid.cards .md-typeset {
+    text-align: center;
+}
+
+.grid.cards li {
+    text-align: center;
+}
+
+.profile-content {
+    text-align: justify;
+}
+
+#growth-bottlenecks-section {
+    text-align: justify;
+}
+
+#what-is-at-stake-section {
+    text-align: justify;
+}
+
+#why-wait-section {
+    text-align: justify;
+}
+
+.md-typeset p {
+    text-align: justify;
+}

@@ -1,6 +1,6 @@
-# Steal this LLM Workflow to book 60% more calls in your LinkedIn Outreach
+<!-- # Steal this LLM Workflow to book 60% more calls in your LinkedIn Outreach -->
 
-## What if your team could increase weekly sales calls by 60% without changing the script, hiring new reps, or sitting through 1:1 call reviews?
+### What if your team could increase weekly sales calls by 60% without changing the script, hiring new reps, or sitting through 1:1 call reviews?
 
 In this post, you'll learn exactly how an early-stage startup used an LLM workflow  I built for them that transformed their raw LinkedIn export data into two powerful reports:
 
@@ -16,7 +16,7 @@ This system created a repeatable loop that:
 
 If you're interested in how this can work for you, please visit my [consulting services page](../consulting.md) or reach out directly via [email](mailto:sudhandar@gmail.com).
 
-## Why Most LinkedIn Outreach Efforts Fall Short
+### Why Most LinkedIn Outreach Efforts Fall Short
 
 Most early-stage sales teams operate in silos. Reps send cold outreach messages following a script and managers or founders review conversations manually. Nobody's sure which messages are actually working or why.
 
@@ -32,7 +32,7 @@ But with just **5 minutes/week**, you can create a feedback loop that:
    - Saves managers hours of review time  
    - Delivers personalized feedback to each rep
 
-## Imagine This Instead of Weekly Guesswork
+### Imagine This Instead of Weekly Guesswork
 
    - ✅ You start every week with a summmary report of outreach performance
    - ✅ Each rep knows *exactly* what to improve without needing a 1:1 review
@@ -42,12 +42,12 @@ But with just **5 minutes/week**, you can create a feedback loop that:
 
 This outcome doesn’t require reinventing your stack. It simply needs one intelligent loop, built around your existing LinkedIn data.
 
-## What You Get from This System
+### What You Get from This System
 
    - **Outreach Summary Report** → Clear overview of call bookings, reply trends, sales rep performance patterns
    - **Personalized Feedback Reports** → Personalized insights on which messages worked, what didn't, and how to improve
 
-### What It Answers:
+#### What It Answers:
 
 **Performance & Conversion**
 
@@ -63,7 +63,7 @@ This outcome doesn’t require reinventing your stack. It simply needs one intel
    - What patterns exist in winning conversations?
    - Where are reps losing prospects?
 
-## How the System Works
+### How the System Works
 
 ![Workflow Diagram](linkedin-report-workflow.png)
 
@@ -82,7 +82,7 @@ Everything stays within the team's existing **Google Cloud environment** — no 
 
 Want to know exactly how this integrates with GCP and Langchain under the hood? I'll be breaking that down in the next blog post.
 
-## Results Teams Are Already Seeing
+### Results Teams Are Already Seeing
 
 - **+60% increase in weekly booked calls** 
 - **4–6 hours/week saved** in founder coaching time  
@@ -91,7 +91,7 @@ Want to know exactly how this integrates with GCP and Langchain under the hood? 
 
 ![Key Metrics You Helped Improve](linkedin-report-metrics.png)
 
-## Want to See If This Can Work for You?
+### Want to See If This Can Work for You?
 
 This system can be easily rolled out to sales teams at startups/organizations who want to:
 
@@ -99,6 +99,6 @@ This system can be easily rolled out to sales teams at startups/organizations wh
    - Give reps feedback without eating into leadership bandwidth
    - Track what's working — and repeat it
 
-If you're curious about implementing this workflow in your startup/organization, feel free to [reach out for a free discovery call](https://cal.com/sudhandar/discoverycall). I'd be happy to discuss your specific use cases and challenges.
+If you're curious about implementing this workflow in your startup/organization, feel free to [reach out for a free growth assessment call](https://cal.com/sudhandar/discoverycall). I'd be happy to discuss your specific use cases and challenges.
 
 What would it be worth if every rep in your team could self-correct and improve every single week?

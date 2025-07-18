@@ -1,6 +1,4 @@
-# Increasing Patient Condition Identification by 300% Using AI: A 6-Step Framework
-
-## The Hidden Goldmine in Unstructured Medical Data
+### The Hidden Goldmine in Unstructured Medical Data
 
 Have you ever been sitting on millions of lines of unstructured medical text data, knowing there's valuable patient information hidden inside but no feasible way to extract it?
 
@@ -16,7 +14,7 @@ Have you ever been sitting on millions of lines of unstructured medical text dat
 
 > **Important note:** We were extracting conditions already documented by healthcare professionals in their notes, not performing medical diagnosis.
 
-## From Months to Hours: A Transformative AI Solution
+### From Months to Hours: A Transformative AI Solution
 
 **The results at a glance:**
 
@@ -30,17 +28,17 @@ In this blog, I'll share the exact 6-step systematic, scalable pipeline I implem
 
 If your team is struggling to find an automated way to extract medical information (or any structured data) from free text notes, please visit my [consulting services page](../consulting.md) or reach out directly via [email](mailto:sudhandar@gmail.com).
 
-## The 6-Step Framework That Made It Possible
+### The 6-Step Framework That Made It Possible
 
 Here's the systematic 6-step framework I used to build this pipeline:
 
 ![6-Step Framework for Condition Identification](condition-identification.png)
 
-### 1. Synthetic Test Dataset Generation
+#### 1. Synthetic Test Dataset Generation
 
 Rather than manually labeling thousands of examples, I created a synthetic test dataset covering positive, negative, and ambiguous cases using AI and domain experts. This approach eliminated extensive manual work while giving a consistent benchmark for evaluation.
 
-### 2. AI Condition Flagging Using LLMs
+#### 2. AI Condition Flagging Using LLMs
 
 I leveraged Google's LLM with carefully designed prompts to extract approximately 10 specific patient conditions from free text. The system could identify conditions mentioned in various forms:
 
@@ -60,11 +58,11 @@ The system successfully recognized different variations of the same condition:
 - Misspellings: "arterial fibrilation", "coronry disease"
 - Implied from procedures: "CABG" → Coronary Artery Disease
 
-### 3. AI Evaluation
+#### 3. AI Evaluation
 
 Using our synthetic dataset, I rigorously evaluated the AI's performance, focusing particularly on recall (81%) because missing a condition could mean missing an opportunity for crucial intervention. Here I used LLM as a judge to validate the output. I've written a detailed blog about validating millions of AI outputs using LLM as a judge. [Read it here](llm-eval-blog.md).
 
-### 4. System Improvements
+#### 4. System Improvements
 
 Based on evaluation insights, I implemented targeted improvements:
 
@@ -73,7 +71,7 @@ Based on evaluation insights, I implemented targeted improvements:
 - Added a secondary verification step for ambiguous mentions
 - Created specialized detectors for high-priority conditions
 
-### 5. Production Monitoring
+#### 5. Production Monitoring
 
 Once deployed, I set up comprehensive monitoring to ensure sustained performance:
 
@@ -90,14 +88,14 @@ To ensure the system improved over time, I implemented:
 - Periodic retraining and prompt refinement
 - Feedback integration from subject matter experts
 
-#### The results speak for themselves:
+### The results speak for themselves:
 
 * A scalable condition identification pipeline that increased identification by 300%
 * Successfully implemented across 1 million free text notes with 81% recall
 * Cut identification from months to hours
 * Completely eliminated human data labeling, freeing up 10 employees' valuable time
 
-## Building Trust in AI-Powered Healthcare Solutions
+### Building Trust in AI-Powered Healthcare Solutions
 
 One of the significant challenges we faced was building trust in an AI system making determinations that would affect patient care. Healthcare stakeholders needed confidence in the system's reliability and transparency.
 
@@ -105,18 +103,18 @@ By implementing rigorous evaluation metrics and continuous monitoring, I created
 
 For a deeper dive into how I quantify and build trust in AI systems like this one, check out my blog on [quantifying AI trust](llm-eval-blog.md).
 
-## Beyond Healthcare: Applications Across Industries
+### Beyond Healthcare: Applications Across Industries
 
 This same framework can be readily adapted to extract valuable insights from unstructured text in virtually any domain:
 
-**Legal:** Law firms can identify critical clauses and obligations across thousands of contracts, reducing attorney review time from hours to minutes while improving risk identification by 200%+.
+- **Legal:** Law firms can identify critical clauses and obligations across thousands of contracts, reducing attorney review time from hours to minutes while improving risk identification by 200%+.
 
-**Customer Experience:** Companies can analyze support tickets and reviews to automatically categorize product issues, detect emerging problems, and identify improvement opportunities with 3x the accuracy of keyword-based approaches.
+- **Customer Experience:** Companies can analyze support tickets and reviews to automatically categorize product issues, detect emerging problems, and identify improvement opportunities with 3x the accuracy of keyword-based approaches.
 
-**Financial Services:** Banks and insurance companies can extract relevant risk factors and financial obligations from loan documents, regulatory filings, and policy agreements, accelerating compliance reviews while reducing manual processing by 80%.
+- **Financial Services:** Banks and insurance companies can extract relevant risk factors and financial obligations from loan documents, regulatory filings, and policy agreements, accelerating compliance reviews while reducing manual processing by 80%.
 
-**Supply Chain Management:** Manufacturing and logistics companies can analyze thousands of supplier communications, shipment notes, and quality reports to automatically identify supply chain risks and disruptions. 
+- **Supply Chain Management:** Manufacturing and logistics companies can analyze thousands of supplier communications, shipment notes, and quality reports to automatically identify supply chain risks and disruptions. 
 
 The core architecture remains nearly identical across these applications, only the extraction targets and domain-specific evaluation metrics require customization.
 
-Need help implementing a similar system for your organization? I help companies deploy AI solutions that deliver measurable business outcomes. [Schedule a free consultation](https://cal.com/sudhandar/discoverycall) to brainstorm about your specific challenges.
+Need help implementing a similar system for your organization? I help companies deploy AI solutions that deliver measurable business outcomes. [Schedule a Free Growth Assessment Call](https://cal.com/sudhandar/discoverycall) to brainstorm about your specific challenges.
