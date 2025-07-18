@@ -72,6 +72,10 @@ I'll show you exactly which processes are limiting your scale and how to automat
     - **✓ Capture growth opportunities** - Never turn away business due to capacity limits
 </div>
 
+## Ready to 3x Your Business?
+
+I only work with 3 clients at a time to provide exceptional service. If you're serious about scaling your business and ready to eliminate the manual work holding you back, let's see if we're a perfect fit.
+
 <div class="grid cards" markdown>
 
 - [:fontawesome-solid-rocket: See How You Can 3x Your Business in 8 Weeks](consulting.md)

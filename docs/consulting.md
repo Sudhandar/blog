@@ -1,6 +1,6 @@
 # AI Consulting Services for Business Growth
 
-## My Proven 3-Step System:
+## My Proven 3-Step System
 
 ### Step 1: Discovery & Strategy
 
@@ -65,13 +65,16 @@
 - Team energized and focused on high-value client work
 - Business ready to scale without operational constraints
 
+## Ready to 3x Your Business?
+
+I only work with 3 clients at a time to provide exceptional service. If you're serious about scaling your business and ready to eliminate the manual work holding you back, let's see if we're a perfect fit.
+
 <div class="grid cards" markdown>
 
 - [:fontawesome-solid-envelope: Request a Consultation](mailto:sudhandar@gmail.com)
 - [:fontawesome-solid-calendar: Book a Free Growth Assessment Call](https://cal.com/sudhandar/discoverycall)
 
 </div>
-
 
 ## Recommendations and Testimonials
 
@@ -107,6 +110,8 @@ He is a fantastic team player. He is dependable, collaborative, and always willi
     - **After our free growth assessment call, I'll provide a detailed proposal with fixed pricing based on the specific value we'll create for your business.**
 
 </div>
+
+I only work with 3 clients at a time to provide exceptional service. If you're serious about scaling your business and ready to eliminate the manual work holding you back, let's see if we're a perfect fit.
 
 <div class="grid cards" markdown>
 

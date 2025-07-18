@@ -1,6 +1,6 @@
-# How to Debug Your RAG Before It’s Too Late
+<!-- # How to Debug Your RAG Before It’s Too Late -->
 
-## A Practical Framework to Identify Retrieval Failures
+### A Practical Framework to Identify Retrieval Failures
 
 
 90% of RAG system failures stem from retrieval problems, not the LLM. After implementing this systematic diagnostic framework, teams can improve the retrieval performance of their RAG systems by up to 25% without replacing the current LLM.
@@ -8,7 +8,7 @@
 If you're interested in how this can work for you, please visit my [consulting services page](../consulting.md) or reach out directly via [email](mailto:sudhandar@gmail.com).
 
 
-## Why Your RAG System Is Only as Good as Its Retrieval
+### Why Your RAG System Is Only as Good as Its Retrieval
 
 Your system can swap models or prompts endlessly, but if your retriever feeds garbage, your LLM will hallucinate with perfect confidence. The biggest RAG performance gains come from fixing retrieval issues, not model tuning.
 
@@ -18,7 +18,7 @@ The reality is that RAG isn't just three simple steps (retrieve, augment, genera
 
 ![What RAG actually is](RAG-System.png)
 
-## What RAG Failures Sound Like (But What They Really Are)
+### What RAG Failures Sound Like (But What They Really Are)
 
 After interacting with multiple teams implementing RAG systems, I consistently hear:
 
@@ -37,11 +37,11 @@ This systematic workflow is critical for RAG success because it transforms retri
 
 Fixing retrieval doesn’t just reduce hallucinations, it accelerates deployment, increases stakeholder trust, and eliminates months of hidden iteration cycles.
 
-## The RAG Retrieval Risk Framework (3 Types of Visibility You Need)
+### The RAG Retrieval Risk Framework (3 Types of Visibility You Need)
 
 Use this **simple framework** to assess whether your team is catching the right retrieval issues *before they lead to hallucinations, customer complaints, or failed rollouts*.
 
-### 1. Surface Visibility
+#### 1. Surface Visibility
 *"Do we have clarity on what the system retrieved for a given query?"*
 
 * Do you know what documents your system actually used to generate an answer?
@@ -50,7 +50,7 @@ Use this **simple framework** to assess whether your team is catching the right 
 
 **Why it matters:** No traceability = No accountability. Even great model outputs can't be trusted without this.
 
-### 2. Structural Visibility
+#### 2. Structural Visibility
 *"Do we understand where our retrieval breaks down as the system scales?"*
 
 * Is retrieval equally good at 1,000 docs vs. 100,000?
@@ -59,7 +59,7 @@ Use this **simple framework** to assess whether your team is catching the right 
 
 **Why it matters:** Most RAG systems fail **not during testing**, but when they hit production load or content complexity.
 
-### 3. Performance Visibility
+#### 3. Performance Visibility
 *"Can we quantify retrieval quality over time?"*
 
 * Can you track performance for different user segments or use cases?
@@ -68,7 +68,7 @@ Use this **simple framework** to assess whether your team is catching the right 
 
 **Why it matters:** Without performance visibility, you'll waste weeks tweaking the wrong layer of the stack.
 
-## When Retrieval Goes Wrong (And Everyone Blames the Model)
+### When Retrieval Goes Wrong (And Everyone Blames the Model)
 
 Here's a real example of how retrieval failure directly causes hallucination:
 
@@ -97,7 +97,7 @@ Let's break down the pattern you'll see across many similar failures:
 
 **Takeaway for leaders:** If you don't diagnose retrieval, you're just repackaging the same problem in a shinier LLM.
 
-## Real-World Example:
+### Real-World Example:
 
 Consider how Netflix approaches a similar problem with their recommendation system:
 
@@ -105,19 +105,19 @@ When users searched for "Oscar-nominated films" but got results for films starri
 
 The solution wasn't changing their recommendation algorithm but fixing their retrieval system to better understand award-related queries.
 
-## How to Catch Problems Before and After Launch
+### How to Catch Problems Before and After Launch
 
 Depending on where you are in your development cycle, you can identify retrieval problems in two ways:
 
-### 1. Before Deployment: Proactive Testing
+#### 1. Before Deployment: Proactive Testing
 
 Before your system goes live, invest in creating proper test suites with diverse query types. Don't just test the "happy path" - challenge your system with ambiguous and edge case scenarios that reflect real-world usage.
 
-### 2. After Deployment: Real-World Monitoring
+#### 2. After Deployment: Real-World Monitoring
 
 Once your system is live, continually analyze user interactions and query patterns. Look for trends in where the system struggles and cases where users express disappointment or confusion with the answers.
 
-## Decision-Maker Checklist: Are You Asking These Questions?
+### Decision-Maker Checklist: Are You Asking These Questions?
 
 🔑 **Retrieval Leadership Checklist**
 
@@ -137,10 +137,10 @@ Quick win: Try auditing 10 real production queries today. Ask your team:
 
 You’ll be shocked how many “model” failures are actually retrieval failures in disguise.
 
-## Ready to Diagnose Your RAG System?
+### Ready to Diagnose Your RAG System?
 
 If your RAG system is struggling despite having the latest LLM, chances are you're facing retrieval issues.
 
 Want to learn how I can help improve your system's retrieval capabilities? Book a 60-minute diagnostic call, and I'll walk you through the most common retrieval failure patterns I see in your industry.
 
-[Book Your Diagnostic Call →](https://cal.com/sudhandar/discoverycall)
+[:fontawesome-solid-calendar: Book a Free Growth Assessment Call](https://cal.com/sudhandar/discoverycall){: .cta-button}

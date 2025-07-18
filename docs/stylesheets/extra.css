@@ -97,7 +97,7 @@
 }
 
 .md-typeset h3 {
-    color: var(--md-default-fg-color);
+    color: var(--md-primary-fg-color);
     margin-top: 1.5rem;
 }
 
@@ -231,7 +231,6 @@
     margin-left: 0;
     display: block;
 }
-
 /* Section-specific font sizes */
 #growth-bottlenecks-section .md-admonition__content ul li,
 #why-wait-section .md-admonition__content ul li,
