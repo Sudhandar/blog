@@ -1,22 +1,36 @@
-Your Google Suite automation using No code automation tools and App Scripts worked perfectly for a small number of accounts and folders. But when you tried to scale the automation and make it intelligent, everything broke. You hit a roadblock.
+Your Google Drive automation might look fine today. But five minutes is all it takes to see if it will crack tomorrow.
+
+Run the quick audit below, and spot the red flags before they hit your bottom line.
+
+### The 5 minute audit
+
+1. **Scale Test**: Can your current setup handle 3x more users without breaking?
+2. **Concurrency Check**: What happens when 5 people upload files simultaneously?
+3. **Intelligence Gap**: Can you add AI analysis to your workflows today?
+4. **Error Visibility**: Do you know immediately when something fails?
+5. **Format Flexibility**: Does your automation handle PDFs, Docs, Sheets, and images?
+
+If you checked "No" on two or more boxes, you're not alone.
+
+This exact scenario played out with my client DataShip. Their Google Suite automation worked perfectly until they tried to scale 3x to handle 100+ clients with 500+ folders.
 
 Does this scenario sound familiar?
 
-This exact scenario happened to my client DataShip. They had a mentorship business and wanted to scale 3x their current user base to handle 100+ clients with 500+ folders. They have their entire infrastructure built under Google Suite:
+DataShip had their entire infrastructure built on Google Suite:
 
 * Drive to store data, folders, sheets and other documents
-* Docs to store their text, reports and unstructured data.
-* Sheets to store their structured and numerical data.
+* Docs to store their text, reports and unstructured data
+* Sheets to store their structured and numerical data
 
-They used Zapier and Apps Script for small automations.It worked great. Until it didn't.
+They used Zapier and Apps Script for automations. It worked great for 30 clients.
 
-When they tried to scale their automation system in house using Google's Native App Script and no code tools like Zapier, it completely failed.
+Then they tried to scale. Everything broke.
 
 After spending 8 weeks building their automation using Google Cloud, I learned something important:
 
 If you're trying to automate Google Suite for a growing business and want to scale massively, you'll face these exact same problems.
 
- Let me show you what breaks and why.
+Let me show you what breaks and why.
 
 ### Scalability is a nightmare
 
