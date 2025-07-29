@@ -52,7 +52,7 @@ nav:
           - "Steal this LLM Workflow to book 60% more calls in your LinkedIn Outreach": blog/linkedin-outreach-overview.md
           - "Increasing Patient Condition Identification by 300% Using AI: A 6-Step Framework": blog/condition-identification-blog.md
       - Blogs:
-          - "Why Google Drive Automation Breaks When You Scale to 100+ Clients and 500+ Folders": blog/drive-automation-pain-points.md
+          - "Turning Away Clients Because Google Drive Automation Can’t Handle 3× Capacity? Run This 5-Minute Audit": blog/drive-automation-pain-points.md
           - "Stop Second-Guessing Your AI: A Proven 4-Step Framework to Quantify Trust and Accelerate Deployments": blog/llm-eval-blog.md
           - "How to Debug Your RAG Before It's Too Late": blog/rag-retrieval-blog.md
 
