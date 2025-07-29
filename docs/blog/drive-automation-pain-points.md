@@ -14,13 +14,13 @@ When they tried to scale their automation system in house using Google's Native 
 
 After spending 8 weeks building their automation using Google Cloud, I learned something important:
 
-**If you're trying to automate Google Suite for a growing business and want to scale massively, you'll face these exact same problems.**
+If you're trying to automate Google Suite for a growing business and want to scale massively, you'll face these exact same problems.
 
  Let me show you what breaks and why.
 
 ### Scalability is a nightmare
 
-#### No-Code Tools Hit a Wall
+#### *No-Code Tools Hit a Wall*
 
 No code tools Zapier and Make.com work great for personal use. They're perfect for single accounts.
 
@@ -31,7 +31,7 @@ But they can't handle 100+ accounts. Here's what happens:
 - You add multiple new clients - everything crashes.
 - No warning. No gradual slowdown. Just failure.
 
-#### Google's App Script won't let you expand
+#### *Google's App Script won't let you expand*
 
 Apps Script hits similar walls. It has a 6-minute execution limit. Processing 100+ client folders takes hours. You'll hit daily quotas and timeouts constantly.
 
@@ -41,7 +41,7 @@ Apps Script hits similar walls. It has a 6-minute execution limit. Processing 10
 
 Here's what no one tells you about Google Drive automation using no code tools and App Script:
 
-**Multiple people can't use it at the same time.**
+*Multiple people can't use it at the same time.*
 
 When 5 team members upload files simultaneously, race conditions happen. Files get corrupted. Processes crash. 40% of uploads fail to process correctly.
 
@@ -56,6 +56,17 @@ You can add a GenAI model for a single user workflow. No-code tools can't handle
 Apps Script lacks the compute power for AI processing. It has a 6 minute execution time limit.  You're stuck with basic "if this, then that" logic. 
 
 Let's say you want to analyze documents of your clients or employees and generate personalized reports for each one of them. Both no code tools and App Script automations fail to perform that effectively on scale.
+
+### The Format Chaos
+
+You're building for PDFs. Clients send:
+- Google Docs
+- WhatsApp screenshots  
+- Excel sheets
+- 47-page PowerPoints
+
+Each needs different preprocessing. The AI models break on half of the files. Your simple automation fails to process the different files correctly.
+
 
 ### The Integration Tangle
 
@@ -105,6 +116,8 @@ The promise of "easy automation" works until you need real business results. The
 
 In the future posts, I'll share the exact solutions I used to solve these problems and build an automation that could scale
 
+To know more about my exact process to build scalable automation in 8 weeks, please visit my [consulting services page](../consulting.md).
+
 Ready to discuss your Google Suite automation challenges? 
 
 Curious whether your current setup can scale?
@@ -112,5 +125,3 @@ Curious whether your current setup can scale?
 I offer a free growth assessment call to explore your automation bottlenecks and opportunities.
 
 [:fontawesome-solid-calendar: Book a Free Growth Assessment Call](https://cal.com/sudhandar/discoverycall){: .cta-button}
-
-To know more about my exact process to build scalable automation in 8 weeks, please visit my [consulting services page](../consulting.md)

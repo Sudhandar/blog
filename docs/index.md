@@ -109,29 +109,25 @@ I only work with 3 clients at a time to provide exceptional service. If you're s
 
 ## Recommendations and Testimonials {: #client-testimonials }
 
+<div style="text-align: center;">
+<iframe width="400px" height="371px" src="https://embed-v2.testimonial.to/v/9edb6a6a-c85d-4692-89ad-4f37ffc3a4b8" frameborder="0" scrolling="no" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="max-width: 100%;"></iframe>
+</div>
+
+<script type="text/javascript" src="https://testimonial.to/js/iframeResizer.min.js"></script>
+<iframe id="testimonialto-embed-text--OWMKEfypM_aMQczS2gv" src="https://embed-v2.testimonial.to/text/-OWMKEfypM_aMQczS2gv" frameborder="0" scrolling="no" width="100%"></iframe>
+<script type="text/javascript">iFrameResize({log: false, checkOrigin: false}, "#testimonialto-embed-text--OWMKEfypM_aMQczS2gv");</script>
+
 <script type="text/javascript" src="https://testimonial.to/js/iframeResizer.min.js"></script>
 <iframe id="testimonialto-embed-text--ONt8gzMLoq_4q6iicRW" src="https://embed-v2.testimonial.to/text/-ONt8gzMLoq_4q6iicRW" frameborder="0" scrolling="no" width="100%"></iframe>
 <script type="text/javascript">iFrameResize({log: false, checkOrigin: false}, "#testimonialto-embed-text--ONt8gzMLoq_4q6iicRW");</script>
 
-<div class="testimonial" markdown>
-"Sudhandar is a Data Scientist driven to make impactful contributions in all of his projects. He is a strong team-player, a great communicator and is always able to apply newly learned technical concepts to work. He is someone that can get the job done and welcomes challenges. His initiative and hard work, among many other qualities, consistently set him apart as a dedicated and reliable individual who always goes above and beyond to achieve excellent results."
+<script type="text/javascript" src="https://testimonial.to/js/iframeResizer.min.js"></script>
+<iframe id="testimonialto-embed-text--OWMUIoE47jhS99Z2Prk" src="https://embed-v2.testimonial.to/text/-OWMUIoE47jhS99Z2Prk" frameborder="0" scrolling="no" width="100%"></iframe>
+<script type="text/javascript">iFrameResize({log: false, checkOrigin: false}, "#testimonialto-embed-text--OWMUIoE47jhS99Z2Prk");</script>
 
-<div class="testimonial-author">Ali Mahmood</div>
-<div class="testimonial-company">Sr. Data Scientist, Loblaws</div>
-</div>
-
-<div class="testimonial" markdown>
-"I had the pleasure of working closely with Sudhandar over the past two years, and I can confidently say that he is an exceptional data scientist and an invaluable asset to any team. His ability to tackle complex business challenges with data-driven solutions has made a significant impact on our projects and our stakeholders.
-
-Sudhandar combines a strong technical background in machine learning and natural language processing with a keen understanding of business needs. His work on leveraging state-of-the-art LLM models and NLP techniques has led to innovative solutions that have greatly improved our the data quality of our projects. Whether it's designing robust ETL pipelines, developing advanced machine learning models, or delivering strategic recommendations, he approaches every task with precision and a commitment to excellence.
-
-He is a fantastic team player. He is dependable, collaborative, and always willing to lend a hand to help his colleagues succeed. His proactive approach and leadership skills have also made him an effective team member, ensuring that we stay organized and focused on our goals. I am confident that Sudhandar will continue to achieve great things in his career, and I would highly recommend him to any organization looking for a talented and dedicated data scientist who can make a real difference."
-
-<div class="testimonial-author">Jonathan Erez</div>
-<div class="testimonial-company">Sr. Data Scientist, Deloitte</div>
-</div>
-
-
+<script type="text/javascript" src="https://testimonial.to/js/iframeResizer.min.js"></script>
+<iframe id="testimonialto-embed-text--OWMTTBwpeubia-vYFD4" src="https://embed-v2.testimonial.to/text/-OWMTTBwpeubia-vYFD4" frameborder="0" scrolling="no" width="100%"></iframe>
+<script type="text/javascript">iFrameResize({log: false, checkOrigin: false}, "#testimonialto-embed-text--OWMTTBwpeubia-vYFD4");</script>
 
 ## About Me {: #about-me }
 
