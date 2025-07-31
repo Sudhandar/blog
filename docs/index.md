@@ -6,7 +6,7 @@
 
 **Scale Your Business to 3x More Clients Without Burning Out Your Team**
 
-Stop spending 80+ hours monthly on manual processes that limit your growth. I build complete automation systems that let you handle 3x more clients while saving 20+ hours weekly - delivered in 8 weeks instead of the industry standard 16 weeks.
+Stop spending 100+ hours monthly on manual processes that limit your growth. I build intelligent AI automation systems that let you handle 3x more clients without an increase in headcount - delivered in 8 weeks instead of the industry standard 16 weeks.
 
 Is your business growth capped because everything depends on manual work that doesn't scale?
 I'll show you exactly which processes are limiting your scale and how to automate them faster than your competition.
