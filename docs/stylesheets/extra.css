@@ -250,6 +250,10 @@
 #what-you-will-achieve-section * {
     font-size: 0.8rem;
 } 
+#diagnosing-dataship-bottleneck * {
+    font-size: 0.8rem;
+}
+
 
 /* Center text in grid cards */
 .grid.cards .md-typeset {
@@ -278,4 +282,24 @@
 
 .md-typeset p {
     text-align: justify;
+}
+
+/* Increase font size for all tables */
+.md-typeset table {
+    font-size: 0.8rem; /* Adjust this value as needed */
+}
+
+/* Increase font size for table headers */
+.md-typeset table thead th {
+    font-size: 0.8rem;
+}
+
+/* Increase font size for table cells */
+.md-typeset table tbody td {
+    font-size: 0.8rem;
+}
+
+/* Center the entire table element on the page */
+.md-typeset .md-typeset__table {
+    text-align: center;
 }

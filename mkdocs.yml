@@ -49,6 +49,7 @@ nav:
   - Case Studies/Blogs:
       - Case Studies:
           - "The 15-Minute Weekly Report That Saved Millions in Regulatory Fines": blog/compliance-pipeline-blog-markdown.md
+          - "How Dataship Tripled Client Capacity in 8 Weeks With an AI‑Powered Feedback Engine": blog/dataship-case-study.md
           - "Steal this LLM Workflow to book 60% more calls in your LinkedIn Outreach": blog/linkedin-outreach-overview.md
           - "Increasing Patient Condition Identification by 300% Using AI: A 6-Step Framework": blog/condition-identification-blog.md
       - Blogs:

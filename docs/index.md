@@ -97,13 +97,11 @@ I only work with 3 clients at a time to provide exceptional service. If you're s
     
     [:octicons-arrow-right-24: Read more](blog/compliance-pipeline-blog-markdown.md)
 
-- **LLM Evaluation**
+- **Case Study**
     
-    ### Stop Second-Guessing Your AI: A Proven 4-Step Framework
-    
-    Reducing Review Time From Weeks to Hours While Boosting Performance by 20%
-    
-    [:octicons-arrow-right-24: Read more](blog/llm-eval-blog.md)
+    ### From Bottleneck to Breakthrough: How Dataship Tripled Client Capacity in 8 Weeks With an AI‑Powered Feedback Engine
+        
+    [:octicons-arrow-right-24: Read more](blog/dataship-case-study.md)
 
 </div>
 
