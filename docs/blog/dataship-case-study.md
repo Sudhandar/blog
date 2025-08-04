@@ -64,7 +64,7 @@ We built an end-to-end **AI Report Generation Engine** hosted on Google Cloud Pl
 
 | Metric                     | Before              | After            |
 |----------------------------|---------------------|------------------|
-| Feedback turnaround        | 2–3 business days   | **< 10 minutes** |
+| Feedback turnaround        | 2–3 business days   | **< 60 minutes** |
 | Founder hours on feedback  | 30 + hrs/week       | **0 hrs/week**   |
 | Revenue capacity           | 1×                  | **3×**           |
 
