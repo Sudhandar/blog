@@ -8,6 +8,8 @@
 - [Increasing Patient Condition Identification by 300% Using AI: A 6-Step Framework](blog/condition-identification-blog.md) - Identifying Conditions in Free Text Notes
 
 ## Blog
+
+- [Why Your 94% Accurate AI Evaluator Is Actually Failing (And the 5-Step Framework That Fixes It)](blog/aligning-ai-with-human.md) - Why Your 94% Accurate AI Evaluator Is Actually Failing (And the 5-Step Framework That Fixes It)
 - [Turning Away Clients Because Google Drive Automation Can’t Handle 3× Capacity? Run This 5-Minute Audit](blog/drive-automation-pain-points.md) - Turning Away Clients Because Google Drive Automation Can’t Handle 3× Capacity? Run This 5-Minute Audit
 - [Stop Second-Guessing Your AI: A Proven 4-Step Framework to Quantify Trust and Accelerate Deployments](blog/llm-eval-blog.md) - Reducing Review Time From Weeks to Hours While Boosting Performance by 20%
 - [How to Debug Your RAG Before It's Too Late](blog/rag-retrieval-blog.md) - Enhancing AI Performance Through Advanced Retrieval Techniques
