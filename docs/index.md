@@ -79,7 +79,7 @@ I use my proven 3-step Applied AI approach that takes you from finding the bigge
 
 </div>
 
-## Recommendations and Testimonials {: #client-testimonials }
+## Testimonials & Recommendations {: #client-testimonials }
 
 <div style="text-align: center;">
 <iframe width="400px" height="371px" src="https://embed-v2.testimonial.to/v/9edb6a6a-c85d-4692-89ad-4f37ffc3a4b8" frameborder="0" scrolling="no" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="max-width: 100%;"></iframe>
