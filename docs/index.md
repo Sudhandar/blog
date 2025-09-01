@@ -1,29 +1,21 @@
-# Automating Workflows & Enhancing Productivity with LLMs
+# Building AI That Matters to Your Business
 
 <div class="profile-section" markdown>
-<img src="assets/profile.jpg" alt="Sudhandar Balakrishnan" class="profile-photo">
-<div class="profile-content" markdown>
+<img src="assets/profile.jpg" alt="Sudhandar Balakrishnan" class="profile-photo" align="right">
+<div class="profile-content" markdown = "1"> 
+## Applied AI Consultant
 
-**Scale Your Business to 3x More Clients Without Burning Out Your Team**
+✅ I help growing companies build AI systems that drive real business results.
 
-Stop spending 100+ hours monthly on manual processes that limit your growth. I build AI agents and automation systems that let you handle 3x more clients without an increase in headcount - delivered in 8 weeks instead of the industry standard 16 weeks.
+✅ Instead of chasing hype, you’ll get measurable AI solutions that fit your business and workflows.
 
-Is your business growth capped because everything depends on manual work that doesn't scale?
-I'll show you exactly which processes are limiting your scale and how to automate them faster than your competition.
+✅ I leave your team with the tools, frameworks, and know-how to keep improving long after I’m gone.
 
-</div>
-</div>
+ </div> 
+ </div> 
 
-<div class="grid cards" markdown>
 
-- [:fontawesome-solid-rocket: See How You Can 3x Your Business in 8 Weeks](consulting.md)
-- [:fontawesome-solid-calendar: Book a Free Growth Assessment](https://cal.com/sudhandar/discoverycall)
-
-</div>
-
-## What's At Stake? {: #whats-at-stake }
-
-<div class="custom-section" id="what-is-at-stake-section" markdown="1">
+<!-- <div class="custom-section" id="what-is-at-stake-section" markdown="1">
 
 !!! danger "What's Manual Operations Costing Your Business?"
     - Missing $500K+ annual revenue because you can't handle more clients?
@@ -31,38 +23,42 @@ I'll show you exactly which processes are limiting your scale and how to automat
     - Watching competitors scale faster while you're stuck in operations?
     - Building a business that completely depends on your personal involvement?
     - Limiting your exit potential because everything requires your oversight?
-</div>
+</div> -->
 
-<div class="custom-section" id="growth-bottlenecks-section" markdown="1">
+## Where You Are Right Now {: #whats-at-stake }
 
-!!! bug "Stop These Growth Bottlenecks"
+<!-- <div class="custom-section" id="growth-bottlenecks-section" markdown="1"> -->
 
-    1. **"I'm personally involved in every client interaction and process"** 
-        - ➡️ Agents and Automated systems handle operations so you focus on strategy
-    2. **"My business can't grow without hiring more people to do manual work"** 
-        - ➡️ Scale to 3x more clients with your current team size
-    3. **"If I'm not available, customer service and quality suffers"** 
-        - ➡️ Business delivers consistent results even when you're traveling or offline
-    4. **"We're leaving money on the table because we can't handle more volume"** 
-        - ➡️ Capture growth opportunities without operational chaos
-    5. **"Every new client means more manual work and potential for mistakes"** 
-        - ➡️ Growth actually becomes easier as automation improves with scale
-    6. **"Our competitors are scaling faster while we're stuck in manual processes"** 
-        - ➡️ Leapfrog competition with automated operations they can't match
-</div>
+<!-- !!! bug "Current State" -->
 
-## Why Wait 16-20 Weeks When You Can Have Results in 8?
+- Your company wants to incorporate AI into existing workflows.
+- Too many manual processes and compliance checks are slowing your team down.
+- You’ve tried no-code tools, but they don’t scale with your growth.
+- You’ve invested in AI proof-of-concepts, but struggle to take them into production.
+- The AI landscape feels overwhelming with too many tools and too much hype.
+- You lack in-house Applied AI expertise to execute confidently.
 
-<div class="custom-section" id="why-wait-section" markdown="1">
+<!-- </div> -->
 
-!!! success "While other businesses spend 4-5 months planning and implementing, you'll be scaling to 3x capacity and capturing market share they're still preparing for"
+## Where I Help You Get To
+
+- **Intelligent AI systems** seamlessly integrated into your existing workflows.
+- **AI in production** that delivers measurable results.
+- **Evaluation frameworks** that precisely show what’s working (and what’s not).
+- Freedom to **focus on growth** instead of manual operations.
+- Your team is equipped with the **tools and knowledge** to systematically operate and improve these systems.
+
+
+<!-- <div class="custom-section" id="why-wait-section" markdown="1"> -->
+
+<!-- !!! success "While other businesses spend 4-5 months planning and implementing, you'll be scaling to 3x capacity and capturing market share they're still preparing for"
     - **Industry Standard:** 16-20 weeks for automation implementation
     - **My Delivery:** 8 weeks to complete transformation
     - **Your Advantage:** Start seeing ROI months ahead of competitors
+ -->
+<!-- </div> -->
 
-</div>
-
-<div class="custom-section" id="what-you-will-achieve-section" markdown="1">
+<!-- <div class="custom-section" id="what-you-will-achieve-section" markdown="1">
 
 !!! tip "What You'll Achieve:"
     - **✓ Scale to 3x more clients** - Handle growth without proportional staff increases
@@ -70,38 +66,16 @@ I'll show you exactly which processes are limiting your scale and how to automat
     - **✓ 8-week implementation** - Start scaling months before competitors
     - **✓ Business runs without you** - Travel, take time off, focus on strategy
     - **✓ Capture growth opportunities** - Never turn away business due to capacity limits
-</div>
+</div> -->
 
-## Ready to 3x Your Business?
+## How I Help You Get There
 
-I only work with 3 clients at a time to provide exceptional service. If you're serious about scaling your business and ready to eliminate the manual work holding you back, let's see if we're a perfect fit.
+I use my proven 3-step Applied AI approach that takes you from finding the biggest bottleneck to implementing an AI system that matters to your business. Find more about my process here:
 
 <div class="grid cards" markdown>
 
-- [:fontawesome-solid-rocket: See How You Can 3x Your Business in 8 Weeks](consulting.md)
+- [:fontawesome-solid-rocket: 3-Step Applied AI Approach](consulting.md)
 - [:fontawesome-solid-calendar: Book a Free Growth Assessment](https://cal.com/sudhandar/discoverycall)
-
-
-</div>
-
-
-## Latest Insights {: #latest-insights }
-
-<div class="grid cards" markdown>
-
-- **Case Study**
-    
-    ### The 15-Minute Weekly Report That Saved Millions in Regulatory Fines
-    
-    Building an AI compliance pipeline
-    
-    [:octicons-arrow-right-24: Read more](blog/compliance-pipeline-blog-markdown.md)
-
-- **Case Study**
-    
-    ### From Bottleneck to Breakthrough: How Dataship Tripled Client Capacity in 8 Weeks With an AI‑Powered Feedback Engine
-        
-    [:octicons-arrow-right-24: Read more](blog/dataship-case-study.md)
 
 </div>
 
@@ -127,27 +101,56 @@ I only work with 3 clients at a time to provide exceptional service. If you're s
 <iframe id="testimonialto-embed-text--OWMTTBwpeubia-vYFD4" src="https://embed-v2.testimonial.to/text/-OWMTTBwpeubia-vYFD4" frameborder="0" scrolling="no" width="100%"></iframe>
 <script type="text/javascript">iFrameResize({log: false, checkOrigin: false}, "#testimonialto-embed-text--OWMTTBwpeubia-vYFD4");</script>
 
+## Latest Insights {: #latest-insights }
+
+<div class="grid cards" markdown>
+
+- **Case Study**
+    
+    ### The 15-Minute Weekly Report That Saved Millions in Regulatory Fines
+    
+    Building an AI compliance pipeline
+    
+    [:octicons-arrow-right-24: Read more](blog/compliance-pipeline-blog-markdown.md)
+
+- **Case Study**
+    
+    ### From Bottleneck to Breakthrough: How Dataship Tripled Client Capacity in 8 Weeks With an AI‑Powered Feedback Engine
+        
+    [:octicons-arrow-right-24: Read more](blog/dataship-case-study.md)
+
+</div>
+
+
 ## About Me {: #about-me }
 
-I Fix Broken Business Operations That Limit Growth.If your business growth is capped because everything depends on manual work, I build automation systems that change that. You get 3x more client capacity. Your team gets their time back. Your business runs without you.
+I’m Sudhandar Balakrishnan, an **Applied AI Consultant** who helps growing companies build AI systems that drive real business results.
 
-In my previous work experience, I transformed healthcare data into actionable intelligence that cuts operational costs by up to 50% while eliminating regulatory risks. I've helped healthcare organizations process 300,000+ patient profiles and achieve 86% automation accuracy with projects delivered 1-2 months faster than internal timelines.
+Before consulting, I worked as a **Data Scientist at Loblaws**, where I built AI systems that processed over 300,000 patient profiles, automated compliance audits across 700,000+ forms, and cut operational risks that could have cost millions in fines.
+
+I also hold a **Master’s degree in Computer Engineering from Queen’s University**, where I specialized in Artificial Intelligence. My research focused on applying **Generative AI techniques to financial data**.
+
+Over the years, I’ve built dozens of AI proof-of-concepts that never made it into production. That frustration pushed me to dig deeper into why. 
+
+I realized that AI research is very different from Applied AI. Applied AI is about building systems that fit your business and deliver measurable results.This realization made me pivot to working on systems that actually drive business results.
+
+That’s the gap I help companies overcome.
 
 ### Professional Experience
 
 - **Data Scientist II at Loblaw Companies Limited**
     - Delivered 300,000+ personalized patient profiles that enabled targeted health recommendations, increasing patient engagement and improving long-term care outcomes
    
-    - Automated medication review audits using GenAI, expanding coverage from 1,000 to 700,000 forms—enabling healthcare providers to identify high-risk patients 86% faster
+    - Automated medication review audits using GenAI, expanding coverage from 1,000 to 700,000 forms enabling healthcare providers to identify high-risk patients 86% faster
    
-    - Reduced critical data loss detection from 3+ days to just 6 hours—eliminating compliance risks that could have resulted in millions in regulatory penalties
+    - Reduced critical data loss detection from 3+ days to just 6 hours eliminating compliance risks that could have resulted in millions in regulatory penalties
    
     - Built NER systems that increased condition identification by 300%, enabling early interventions that improved both patient outcomes and operational efficiency
 
 
 - **Data Scientist at ZoomRx Inc.**
     - Partnered with pharmaceutical leaders (Pfizer, Genentech, Bristol Myers Squibb) to deliver AI solutions that drove strategic decision-making
-    - Implemented a $2M RAG knowledge graph system that transformed how pharma clients accessed critical information—saving them 8+ hours weekly in research time
+    - Implemented a $2M RAG knowledge graph system that transformed how pharma clients accessed critical information saving them 8+ hours weekly in research time
     - Automated ETL pipelines that eliminated 20+ hours of manual work monthly, allowing clients to redirect resources to high-value initiatives
    
 

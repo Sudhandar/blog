@@ -73,14 +73,15 @@
 
 .profile-section {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 .profile-photo {
     width: 200px;
     height: 200px;
+    /* margin-bottom: 2em; */
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -123,7 +124,7 @@
     .profile-photo {
         width: 150px;
         height: 150px;
-        margin-bottom: 1rem;
+        margin-top: 2rem;
     }
 
     .button-group {
@@ -213,7 +214,7 @@
 }
 
 .blog-list a {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: var(--md-primary-fg-color);
     text-decoration: none;
@@ -248,10 +249,10 @@
 #what-is-at-stake-section *,
 #why-wait-section *,
 #what-you-will-achieve-section * {
-    font-size: 0.8rem;
+    font-size: 1rem;
 } 
 #diagnosing-dataship-bottleneck * {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 
@@ -266,6 +267,7 @@
 
 .profile-content {
     text-align: justify;
+    font-size: 1rem;
 }
 
 #growth-bottlenecks-section {
@@ -302,4 +304,15 @@
 /* Center the entire table element on the page */
 .md-typeset .md-typeset__table {
     text-align: center;
+}
+
+
+/* Remove all admonition icons */
+.md-typeset .admonition::before,
+.md-typeset .admonition > .admonition-title::before {
+    display: none !important;
+}
+
+.md-typeset {
+    font-size: 0.9rem; /* Adjust this value as needed */
 }
