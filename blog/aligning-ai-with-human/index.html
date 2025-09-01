@@ -1,0 +1,1099 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="AI consulting services">
+      
+      
+      
+        <link rel="canonical" href="https://Sudhandar.github.io/blog/blog/aligning-ai-with-human/">
+      
+      
+        <link rel="prev" href="../personalized-outreach/">
+      
+      
+        <link rel="next" href="../drive-automation-pain-points/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>LLM-as-a-Judge is Broken Without Human Alignment. Here’s How to Fix It - Sudhandar Balakrishnan</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-QBHPNWV21J"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-QBHPNWV21J",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-QBHPNWV21J",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Sudhandar Balakrishnan" class="md-header__button md-logo" aria-label="Sudhandar Balakrishnan" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Sudhandar Balakrishnan
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              LLM-as-a-Judge is Broken Without Human Alignment. Here’s How to Fix It
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../consulting/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Consulting
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../compliance-pipeline-blog-markdown/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Case Studies/Blogs
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Sudhandar Balakrishnan" class="md-nav__button md-logo" aria-label="Sudhandar Balakrishnan" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Sudhandar Balakrishnan
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../consulting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Consulting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Case Studies/Blogs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Case Studies/Blogs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Case Studies
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Case Studies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../compliance-pipeline-blog-markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The 15-Minute Weekly Report That Saved Millions in Regulatory Fines
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dataship-case-study/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How Dataship Tripled Client Capacity in 8 Weeks With an AI‑Powered Feedback Engine
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linkedin-outreach-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Steal this LLM Workflow to book 60% more calls in your LinkedIn Outreach
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../condition-identification-blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Increasing Patient Condition Identification by 300% Using AI: A 6-Step Framework
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personalized-outreach/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The 4-Layer LinkedIn System That Turns Cold Outreach Into Warm Replies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Blogs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Blogs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    LLM-as-a-Judge is Broken Without Human Alignment. Here’s How to Fix It
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drive-automation-pain-points/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Turning Away Clients Because Google Drive Automation Can’t Handle 3× Capacity? Run This 5-Minute Audit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../llm-eval-blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Stop Second-Guessing Your AI: A Proven 4-Step Framework to Quantify Trust and Accelerate Deployments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rag-retrieval-blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to Debug Your RAG Before It's Too Late
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>LLM-as-a-Judge is Broken Without Human Alignment. Here’s How to Fix It</h1>
+
+<p>I built an AI system that scored 94% accuracy. Then I watched a human expert tear it apart in 5 minutes. That's when I learned evaluation metrics mean nothing without human alignment.</p>
+<p>Nowadays, AI products are everywhere. Summarizers, contract analyzers, recommendation engines - you name it. And when you’re scaling them, one of the biggest bottlenecks is evaluation. Millions of AI generated outputs or handwritten records need to be labeled or flagged, and manual review just doesn’t cut it.</p>
+<p>That’s why teams jump to <strong>LLM-as-a-Judge</strong>: instead of relying on human reviewers, you use an LLM to evaluate outputs at scale. On the surface, it’s brilliant because it’s fast, cheap, and infinitely scalable.</p>
+<p>But here’s the catch: even with LLM-as-a-Judge in place, products still fail on quality. And I’ve seen this over and over again. The core issue? <strong>AI evaluation doesn’t reliably align with human judgment.</strong></p>
+<p>In my case, domain experts spotted critical issues my evaluator missed completely. The problem: LLMs don't understand what matters to your business.</p>
+<h3 id="what-llm-as-a-judge-really-means">What LLM-as-a-Judge Really Means</h3>
+<p>At its core, “LLM-as-a-Judge”, or often known as AI Evaluators,  just means using a language model like ChatGPT, Claude, Gemini, etc. to score your AI application's output (eg: chatbot responses, contract analysis, etc). Instead of humans rating every response, the LLM looks at things like:</p>
+<ul>
+<li><strong>Accuracy</strong> → Did it reflect the source correctly?  </li>
+<li><strong>Coherence</strong> → Does it make sense?  </li>
+<li><strong>Relevance</strong> → Did it actually answer the question?</li>
+</ul>
+<p>This idea isn’t limited to AI applications. Any process that involves large-scale labeling like regulatory compliance check, extracting KPIs from unstructured data, etc., could benefit from this. I have a case study on how using LLM-as-a-Judge helped in saving Millions of dollars in regulatory fines here <a href="https://sudhandar.com/blog/compliance-pipeline-blog-markdown/">https://sudhandar.com/blog/compliance-pipeline-blog-markdown/</a></p>
+<p>But here’s where most teams go wrong: they treat the LLM as if it’s a drop-in replacement for a human reviewer. It’s not.</p>
+<h3 id="the-problems-i-see-with-ai-evaluation">The Problems I See With AI Evaluation</h3>
+<h4 id="1-misalignment-with-humans"><strong>1. Misalignment With Humans</strong></h4>
+<p>LLMs are statistical pattern matchers. They don’t reason like humans.</p>
+<p><strong>Example:</strong><br />
+Let's assume you built an AI app which summarizes key insights from multiple reports. To verify the validity of the generated summary, you use a LLM-as-a-Judge to flag the summary as either pass or fail. </p>
+<p>The AI spits out a fluent, factually correct summary. Your AI Evaluator flags it as a pass.<br />
+A domain expert looks at the summary and flags it as a failure and adds the following reasoning. <strong>"The summary is useless because it left out the one insight the user cared about."</strong></p>
+<p>This happens because humans evaluate with intent, context, and domain knowledge. LLMs don’t. If you’re reinforcing outputs that “sound good” but don’t serve the user, you’re digging your own grave.</p>
+<p><strong>Business impact:</strong> You end up optimizing for machine-pleasing outputs while frustrating your actual users. In regulated spaces, this is worse. You’re flirting with compliance risk.</p>
+<h4 id="2-overcomplicated-metrics"><strong>2. Overcomplicated Metrics</strong></h4>
+<p>I see this mistake all the time. I have done this myself in the past. Teams create 5-scale scoring systems: 1–5 for accuracy, 1–5 for fluency, 1–5 for relevance. It looks impressive on a deck. In practice, it’s chaos.</p>
+<ul>
+<li>A “3” to one reviewer is a “5” to another.  </li>
+<li>No one knows what to do with a “total score of 17.”  </li>
+<li>The LLM itself gets confused trying to predict a gradient where a binary would do.</li>
+</ul>
+<p>Keep it simple: <strong>Pass or Fail.</strong></p>
+<ul>
+<li><strong>Pass</strong> → Meets the user’s needs.  </li>
+<li><strong>Fail</strong> → Misses it or introduces critical errors.</li>
+</ul>
+<p>Binary judgments are unambiguous, actionable, and much easier to scale.</p>
+<h4 id="3-missing-human-reasoning"><strong>3. Missing Human Reasoning</strong></h4>
+<p>Humans don’t just say “good” or “bad.” They say <strong>"why"</strong>. That “why” is gold. It’s how you debug failures and align expectations.</p>
+<p>It’s crucial to collect the human reasoning while labelling the outputs as either pass or fail. This could be later used to train the AI to learn from and align its evaluation in accordance with the human evaluations.</p>
+<p>Without the reasoning, your AI evaluator learns nothing.</p>
+<p><strong>Business impact:</strong> You end up with black-box judgments and no way to close the gap between humans and machines.</p>
+<h4 id="4-the-wrong-experts-in-the-loop"><strong>4. The Wrong “Experts” in the Loop</strong></h4>
+<p>Another huge pitfall: developers acting as the domain experts and labelling the AI outputs.</p>
+<ul>
+<li>Legal AI? The evaluator should be a lawyer.  </li>
+<li>Healthcare compliance AI? A regulatory specialist.  </li>
+<li>Mental Health AI? A Psychologist</li>
+</ul>
+<p>Developers and their managers, as good as they are technically, don’t carry that domain reasoning. If you optimize against them, you’re shipping a model that looks great in dashboards but collapses in real-world usage.</p>
+<h3 id="battle-tested-five-step-framework-for-fixing-this">Battle Tested Five Step Framework for Fixing This</h3>
+<p>Here’s the five-step framework that can be used to align AI evaluation with human judgment.</p>
+<p><img alt="5 Step Framework" src="../aligning_ai_with_human.png" /> </p>
+<h4 id="step-1-get-the-right-domain-experts"><strong>Step 1: Get the Right Domain Experts</strong></h4>
+<p>Forget prompts and metrics for a moment. Start with the people. Your evaluators need to represent your users and your business, not just your dev team’s assumptions.</p>
+<p><strong>Example:</strong><br />
+For a legal analysis tool, you want practicing lawyers reviewing outputs. A “technically perfect” eval system without legal expertise is worthless. it will miss the very risks your end users care about.</p>
+<h4 id="step-2-passfail-reasoning-keep-it-simple"><strong>Step 2: Pass/Fail + Reasoning (Keep It Simple)</strong></h4>
+<p>Ask experts to rate outputs as <strong>Pass or Fail.</strong> Then capture their reasoning. Nothing more.</p>
+<p>That reasoning is the bridge between humans and machines.</p>
+<ul>
+<li><strong>Pass</strong> → Why it met the need, even if imperfect.  </li>
+<li><strong>Fail</strong> → The specific reason it fell short (missed context, factual error, etc.).</li>
+</ul>
+<p><strong>Example:</strong></p>
+<p>Here’s how the labelling + reasoning process would look like.</p>
+<p><img alt="Labelling and Reasoning" src="../labelling_reference.png" /> </p>
+<p>A simple excel sheet or a google sheet would work. We should make it easy for the domain expert to work.</p>
+<ul>
+<li>For <strong>passes</strong>, the domain expert should explain why the AI succeeded in meeting the user’s primary need, even if there were critical aspects that could be improved.   </li>
+<li>For <strong>fails</strong>, we identify the critical elements that led to the failure, explaining why the AI did not meet the user’s main objective or compromised important factors like user experience or security.</li>
+</ul>
+<p>Most importantly, the reasoning should be detailed enough so that you can use it in a few-shot prompt for a LLM judge. In other words, it should be detailed enough that a new employee could understand it.</p>
+<h4 id="step-3-define-criteria-from-real-labels"><strong>Step 3: Define Criteria From Real Labels</strong></h4>
+<p>This is where most teams blow it. They try to define evaluation criteria upfront, before seeing any data. What happens? <strong>Criteria drift.</strong></p>
+<p>As <a href="https://arxiv.org/abs/2404.12272">Shankar et al.</a> point out in <em>Who Validates the Validators?</em>:</p>
+<p><em>"People define criteria while grading outputs. It’s impossible to lock it down fully before you start."</em></p>
+<p>So don’t guess. Let the human labels and reasoning drive your evaluation prompts. Ground your LLM judge in <strong>real-world examples,</strong> not hypotheticals.</p>
+<p>Example (Healthcare Compliance AI):</p>
+<div class="highlight"><pre><span></span><code>You are a healthcare regulation evaluator.    
+Here are the regulations: {regulations}
+Here is the service to evaluate: {service details}
+
+Evaluation Example:    
+&lt;example-1&gt;    
+Reasoning: {expert reasoning}
+Outcome: pass/fail
+&lt;/example-1&gt;
+
+&lt;example-2&gt;    
+Reasoning: {expert reasoning}
+Outcome: pass/fail
+&lt;/example-2&gt;
+</code></pre></div>
+<p>This approach grounds your LLM judge in authentic domain logic, not hypothetical rules.</p>
+<h4 id="step-4-compare-ai-vs-human"><strong>Step 4: Compare AI vs. Human</strong></h4>
+<p>Run the AI Evaluator on your AI generated outputs or your dataset. Now you’ve got both sets of judgments. It’s time to compare the pass/fail flags of your domain expert with that of the AI evaluator. </p>
+<p>Pick the right metric for your use case:</p>
+<ul>
+<li><strong>Healthcare/Safety</strong> → Recall (catch every failure).  </li>
+<li><strong>Legal/Finance</strong> → Precision (don’t let false positives through).  </li>
+<li><strong>Balanced</strong> → F1 score.</li>
+</ul>
+<p>The goal isn’t just numbers. The goal is measuring <em>alignment</em> between your AI judge and your domain experts.</p>
+<h4 id="step-5-continuous-optimization"><strong>Step 5: Continuous Optimization</strong></h4>
+<p>This isn’t set-and-forget. It’s an iterative loop.</p>
+<h4 id="manual-iteration-the-hands-on-approach"><strong>Manual Iteration (The Hands-On Approach)</strong></h4>
+<p>This is where you (and your domain experts) stay very close to the evaluation system and refine it in cycles.</p>
+<ol>
+<li><strong>Collect disagreements</strong> → Gather outputs where the AI judge’s verdict doesn’t match the human expert’s label.  </li>
+<li>
+<p><strong>Group failures into patterns</strong> → Don’t treat each failure as unique. Instead, cluster them.  </p>
+<ul>
+<li>Pattern A: Missing critical numbers (like net profit in financial summaries).  </li>
+<li>Pattern B: Ignoring context (like failing to account for jurisdiction in legal AI).  </li>
+<li>Pattern C: Style/tone mismatches (e.g., formal vs. informal summaries).  </li>
+</ul>
+</li>
+<li>
+<p><strong>Trace root causes</strong> → Look at why the judge failed. Was the prompt too vague? Did the judge lack context that the human had? Was the reasoning step under-specified?  </p>
+</li>
+<li><strong>Refine prompts or evaluator setup</strong> → Adjust the judge instructions to address these patterns.  </li>
+<li><strong>Re-run and measure</strong> → Run the updated evaluator again on the labeled data and compare metrics (alignment score, F1, precision/recall) against the last version.</li>
+</ol>
+<p>You keep looping until the AI judge consistently aligns with expert judgment or when you achieve a satisfying score.</p>
+<p>The strength of this method is <strong>control and clarity</strong>. You know exactly what’s being fixed. Sometimes, even 3 or 4 iterations might be sufficient to achieve an acceptable alignment. </p>
+<p>The drawback: it’s labor-intensive and doesn’t scale well if you’re dealing with tens of thousands of cases weekly.</p>
+<h4 id="semi-automated-optimization-the-scalable-approach"><strong>Semi-Automated Optimization (The Scalable Approach)</strong></h4>
+<p>This is where you bring in more automation and treat your evaluation system like a machine learning pipeline in itself.</p>
+<ol>
+<li>
+<p><strong>Split into Train/Test sets</strong> → Take your human-labeled data and divide it into:  </p>
+<ul>
+<li><strong>Train</strong> → Where you use human examples (pass/fail + reasoning) to refine your evaluator prompt or scoring logic.  </li>
+<li><strong>Test</strong> → A held-out set to measure generalization and avoid overfitting.  </li>
+</ul>
+</li>
+<li>
+<p><strong>Optimize prompts systematically</strong> → Instead of tweaking one failure at a time, you let the system optimize against a chosen metric (accuracy, F1, precision, recall).  </p>
+</li>
+<li><strong>Validate on unseen data</strong> → Once the evaluator has been optimized, you run it on the test set. If performance holds, you know the changes are generalized. If it collapses, you’re overfitting to the training cases.  </li>
+<li><strong>Iterate in cycles</strong> → Keep refreshing the train/test split with new human-labeled examples so the evaluator learns from emerging patterns.</li>
+</ol>
+<p>This approach is powerful for scale. It allows you to continuously recalibrate the AI evaluator as your product sees new edge cases. The trade-off is that it’s less transparent than manual iteration. You optimize metrics, but sometimes lose sight of <em>why</em> the evaluator is improving or failing.</p>
+<p>That’s why I always recommend a hybrid: <strong>start with manual iteration to understand the failure modes, then scale with semi-automated optimization once the failure taxonomy is clearer.</strong></p>
+<p><strong>Either way, you keep experts in the loop. Domain expert's reasoning is the calibration that keeps your evaluation grounded in reality.</strong></p>
+<p>A key thing to consider here is expecting perfection here is setting you up for disappointment. We have to take into account what the AI is capable of and its limitations. </p>
+<h3 id="final-take">Final Take</h3>
+<p>The biggest mistake I see is treating evaluation as a “setup task.” It’s not. It’s a <strong>living system.</strong></p>
+<ul>
+<li>Humans refine criteria.  </li>
+<li>AI evaluators learn from that reasoning.  </li>
+<li>The two stay in sync through continuous optimization.</li>
+</ul>
+<p>The goal isn’t to replace humans. It’s to create a shared evaluation language between humans and machines. If you nail that, you don’t just get models that score well. You get models that <strong>serve real users and real business goals.</strong></p>
+<p>If you’re serious about aligning your AI evaluation with real business outcomes, feel free to <a href="https://cal.com/sudhandar/discoverycall">reach out for a free growth assessment call</a>. I'd be happy to discuss your specific use cases and challenges.</p>
+<h5 id="references">References</h5>
+<ul>
+<li><a href="https://arxiv.org/abs/2404.12272">Who Validates the Validators?</a></li>
+<li><a href="https://hamel.dev/blog/posts/llm-judge/#step-1-find-the-principal-domain-expert">Creating a LLM-as-a-Judge That Drives Business Results</a></li>
+<li><a href="https://eugeneyan.com/writing/aligneval/">AlignEval: Building an App to Make Evals Easy, Fun, and Automated</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://x.com/bsudhandar" target="_blank" rel="noopener" title="Follow me on X" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.linkedin.com/in/sudhandar/" target="_blank" rel="noopener" title="Connect with me on LinkedIn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+  
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" checked>
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+    
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "toc.integrate", "search.suggest", "navigation.indexes", "header.autohide", "toc.permalink"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
