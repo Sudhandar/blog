@@ -1,6 +1,6 @@
 
 
-95% of GenAI pilots fail. That’s not my guess. That’s MIT’s latest report. And after nearly six years working on generative AI projects in both startups and large corporations, I can confirm this aligns with reality. In my experience, 9 out of 10 pilots never made it to production.
+95% of GenAI pilots fail. That’s not my guess. That’s MIT’s latest report. And after nearly six years working on Natural Language Processing in both startups and large corporations, I can confirm this aligns with reality. In my experience, 9 out of 10 pilots never made it to production.
 
 **Translation: They never delivered business value.**
 
