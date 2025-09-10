@@ -54,11 +54,11 @@ nav:
           - "Increasing Patient Condition Identification by 300% Using AI: A 6-Step Framework": blog/condition-identification-blog.md
           - "The 4-Layer LinkedIn System That Turns Cold Outreach Into Warm Replies": blog/personalized-outreach.md
       - Blogs:
+          - "The Harsh Reality: 95% of GenAI Pilots Fail (MIT’s Latest Report + My Take)": blog/mit-report-opinion.md
           - "LLM-as-a-Judge is Broken Without Human Alignment. Here’s How to Fix It": blog/aligning-ai-with-human.md
           - "Turning Away Clients Because Google Drive Automation Can’t Handle 3× Capacity? Run This 5-Minute Audit": blog/drive-automation-pain-points.md
           - "Stop Second-Guessing Your AI: A Proven 4-Step Framework to Quantify Trust and Accelerate Deployments": blog/llm-eval-blog.md
           - "How to Debug Your RAG Before It's Too Late": blog/rag-retrieval-blog.md
-
 
 extra:
   social:

@@ -10,6 +10,7 @@
 
 ## Blog
 
+- [The Harsh Reality: 95% of GenAI Pilots Fail (MIT’s Latest Report + My Take)](blog/mit-report-opinion.md) - The Harsh Reality: 95% of GenAI Pilots Fail (MIT’s Latest Report + My Take)
 - [LLM-as-a-Judge is Broken Without Human Alignment. Here’s How to Fix It](blog/aligning-ai-with-human.md) - LLM-as-a-Judge is Broken Without Human Alignment. Here’s How to Fix It
 - [Turning Away Clients Because Google Drive Automation Can’t Handle 3× Capacity? Run This 5-Minute Audit](blog/drive-automation-pain-points.md) - Turning Away Clients Because Google Drive Automation Can’t Handle 3× Capacity? Run This 5-Minute Audit
 - [Stop Second-Guessing Your AI: A Proven 4-Step Framework to Quantify Trust and Accelerate Deployments](blog/llm-eval-blog.md) - Reducing Review Time From Weeks to Hours While Boosting Performance by 20%

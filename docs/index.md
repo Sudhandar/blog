@@ -14,22 +14,7 @@
  </div> 
  </div> 
 
-
-<!-- <div class="custom-section" id="what-is-at-stake-section" markdown="1">
-
-!!! danger "What's Manual Operations Costing Your Business?"
-    - Missing $500K+ annual revenue because you can't handle more clients?
-    - Wasting $50,000+ monthly on tasks that should be automated?
-    - Watching competitors scale faster while you're stuck in operations?
-    - Building a business that completely depends on your personal involvement?
-    - Limiting your exit potential because everything requires your oversight?
-</div> -->
-
 ## Where You Are Right Now {: #whats-at-stake }
-
-<!-- <div class="custom-section" id="growth-bottlenecks-section" markdown="1"> -->
-
-<!-- !!! bug "Current State" -->
 
 - Your company wants to incorporate AI into existing workflows.
 - Too many manual processes and compliance checks are slowing your team down.
@@ -37,8 +22,6 @@
 - You’ve invested in AI proof-of-concepts, but struggle to take them into production.
 - The AI landscape feels overwhelming with too many tools and too much hype.
 - You lack in-house Applied AI expertise to execute confidently.
-
-<!-- </div> -->
 
 ## Where I Help You Get To
 
@@ -48,25 +31,6 @@
 - Freedom to **focus on growth** instead of manual operations.
 - Your team is equipped with the **tools and knowledge** to systematically operate and improve these systems.
 
-
-<!-- <div class="custom-section" id="why-wait-section" markdown="1"> -->
-
-<!-- !!! success "While other businesses spend 4-5 months planning and implementing, you'll be scaling to 3x capacity and capturing market share they're still preparing for"
-    - **Industry Standard:** 16-20 weeks for automation implementation
-    - **My Delivery:** 8 weeks to complete transformation
-    - **Your Advantage:** Start seeing ROI months ahead of competitors
- -->
-<!-- </div> -->
-
-<!-- <div class="custom-section" id="what-you-will-achieve-section" markdown="1">
-
-!!! tip "What You'll Achieve:"
-    - **✓ Scale to 3x more clients** - Handle growth without proportional staff increases
-    - **✓ Save 20+ hours weekly** - Eliminate personal involvement in routine operations
-    - **✓ 8-week implementation** - Start scaling months before competitors
-    - **✓ Business runs without you** - Travel, take time off, focus on strategy
-    - **✓ Capture growth opportunities** - Never turn away business due to capacity limits
-</div> -->
 
 ## How I Help You Get There
 
