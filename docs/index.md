@@ -1,13 +1,13 @@
-# Building AI That Matters to Your Business
+# Building Generative AI Applications That Matters to Your Business
 
 <div class="profile-section" markdown>
 <img src="assets/profile.jpg" alt="Sudhandar Balakrishnan" class="profile-photo" align="right">
 <div class="profile-content" markdown = "1"> 
 ## Applied AI Consultant
 
-✅ I help growing companies build AI systems that drive real business results.
+✅ I help growing companies build Generative AI applications that drive real business results.
 
-✅ Instead of chasing hype, you’ll get measurable AI solutions that fit your business and workflows.
+✅ Instead of chasing hype, you’ll get measurable solutions that fit your business and workflows.
 
 ✅ I leave your team with the tools, frameworks, and know-how to keep improving long after I’m gone.
 
@@ -16,17 +16,17 @@
 
 ## Where You Are Right Now {: #whats-at-stake }
 
-- Your company wants to incorporate AI into existing workflows.
+- Your company wants to incorporate Generative AI into existing workflows.
 - Too many manual processes and compliance checks are slowing your team down.
 - You’ve tried no-code tools, but they don’t scale with your growth.
-- You’ve invested in AI proof-of-concepts, but struggle to take them into production.
-- The AI landscape feels overwhelming with too many tools and too much hype.
+- You’ve invested in Generative AI proof-of-concepts, but struggle to take them into production.
+- The Generative AI landscape feels overwhelming with too many tools and too much hype.
 - You lack in-house Applied AI expertise to execute confidently.
 
 ## Where I Help You Get To
 
-- **Intelligent AI systems** seamlessly integrated into your existing workflows.
-- **AI in production** that delivers measurable results.
+- **Intelligent Generative AI systems** seamlessly integrated into your existing workflows.
+- **Generative AI in production** that delivers measurable results.
 - **Evaluation frameworks** that precisely show what’s working (and what’s not).
 - Freedom to **focus on growth** instead of manual operations.
 - Your team is equipped with the **tools and knowledge** to systematically operate and improve these systems.
@@ -34,7 +34,7 @@
 
 ## How I Help You Get There
 
-I use my proven 3-step Applied AI approach that takes you from finding the biggest bottleneck to implementing an AI system that matters to your business. Find more about my process here:
+I use my proven 3-step Applied AI approach that takes you from finding the biggest bottleneck to implementing a Generative AI application that matters to your business. Find more about my process here:
 
 <div class="grid cards" markdown>
 

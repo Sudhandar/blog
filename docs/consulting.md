@@ -6,7 +6,7 @@
 
 **Growth Assessment Call**
 
-- Identify high-impact AI opportunities with clear ROI.
+- Identify high-impact Generative AI opportunities with clear ROI.
 - Prioritize opportunities based on your business goals.
 - Establish metrics to track progress.
 - Assess if we're the right fit for your business goals.
