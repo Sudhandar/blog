@@ -5,32 +5,30 @@
 <div class="profile-content" markdown = "1"> 
 ## Applied AI Consultant
 
-✅ I help growing companies build Generative AI applications that drive real business results.
+✅ I help premium coaches and professional services with report automation and workflows to save 20 hrs/week
 
 ✅ Instead of chasing hype, you’ll get measurable solutions that fit your business and workflows.
 
-✅ I leave your team with the tools, frameworks, and know-how to keep improving long after I’m gone.
+✅ Never worry about the system again. You get dashboards, documentation, and ongoing support. So, as your team and business change, the system runs smoothly.
 
  </div> 
  </div> 
 
 ## Where You Are Right Now {: #whats-at-stake }
 
-- Your company wants to incorporate Generative AI into existing workflows.
-- Too many manual processes and compliance checks are slowing your team down.
-- You’ve tried no-code tools, but they don’t scale with your growth.
-- You’ve invested in Generative AI proof-of-concepts, but struggle to take them into production.
+- Your client delivery and reporting workflows are scattered across tools, documents, spreadsheets, and manual steps.
+- The “glue work” between tools drains hours every week, leaving you less time for growth and strategy.
+- You’ve tried no code tools, but nothing fits your systems or scales with your growth.
 - The Generative AI landscape feels overwhelming with too many tools and too much hype.
 - You lack in-house Applied AI expertise to execute confidently.
 
 ## Where I Help You Get To
 
-- **Intelligent Generative AI systems** seamlessly integrated into your existing workflows.
-- **Generative AI in production** that delivers measurable results.
-- **Evaluation frameworks** that precisely show what’s working (and what’s not).
+- **Automated reports** that give you answers in minutes, not days.
+- **Seamless end-to-end workflows** that connect your tools, cut out duplication, and run automatically
+- **Smooth client delivery** and faster decisions.
+- Dashboards that precisely show **what’s working** and **what’s not**.
 - Freedom to **focus on growth** instead of manual operations.
-- Your team is equipped with the **tools and knowledge** to systematically operate and improve these systems.
-
 
 ## How I Help You Get There
 
@@ -88,33 +86,33 @@ I use my proven 3-step Applied AI approach that takes you from finding the bigge
 
 ## About Me {: #about-me }
 
-I’m Sudhandar Balakrishnan, an **Applied AI Consultant** who helps growing companies build AI systems that drive real business results.
+I’m Sudhandar Balakrishnan, an Applied AI Consultant who helps premium coaches and professional services save time, reduce burnout, and focus on strategy by building automated workflows and reporting systems.
 
-Before consulting, I worked as a **Data Scientist at Loblaws**, where I built AI systems that processed over 300,000 patient profiles, automated compliance audits across 700,000+ forms, and cut operational risks that could have cost millions in fines.
+Before consulting, I worked as a **Data Scientist at Loblaws**, Canada's largest retail and pharmacy chain. There, I led the rollout of a GenAI-powered compliance report that expanded audit coverage from 1,000 to 700,000 forms—saving 30+ hours of manual work and millions in potential fines. 
+
+And if you’re wondering who I am beyond work, I quit my corporate job because I wanted to build my own business and work for myself. Outside of work, you’ll probably find me exploring cafes in downtown Toronto or lifting weights at the gym.
 
 I also hold a **Master’s degree in Computer Engineering from Queen’s University**, where I specialized in Artificial Intelligence. My research focused on applying **Generative AI techniques to financial data**.
 
-Over the years, I’ve built dozens of AI proof-of-concepts that never made it into production. That frustration pushed me to dig deeper into why. 
-
-I realized that AI research is very different from Applied AI. Applied AI is about building systems that fit your business and deliver measurable results.This realization made me pivot to working on systems that actually drive business results.
-
-That’s the gap I help companies overcome.
 
 ### Professional Experience
 
 - **Data Scientist II at Loblaw Companies Limited**
     - Delivered 300,000+ personalized patient profiles that enabled targeted health recommendations, increasing patient engagement and improving long-term care outcomes
    
-    - Automated medication review audits using GenAI, expanding coverage from 1,000 to 700,000 forms enabling healthcare providers to identify high-risk patients 86% faster
-   
-    - Reduced critical data loss detection from 3+ days to just 6 hours eliminating compliance risks that could have resulted in millions in regulatory penalties
+    - Automated compliance reports using GenAI, expanding coverage from 1,000 to 700,000 forms enabling healthcare providers to improve compliance and reduce operational risks
    
     - Built NER systems that increased condition identification by 300%, enabling early interventions that improved both patient outcomes and operational efficiency
 
+    - Led a cross-functional team to automate a critical monitoring system for 160+ services, reducing data loss detection time from 3+ days to 6 hours and eliminating 1 hour of daily manual updates, using Google Cloud Composer and Airflow.
+
 
 - **Data Scientist at ZoomRx Inc.**
+
     - Partnered with pharmaceutical leaders (Pfizer, Genentech, Bristol Myers Squibb) to deliver AI solutions that drove strategic decision-making
-    - Implemented a $2M RAG knowledge graph system that transformed how pharma clients accessed critical information saving them 8+ hours weekly in research time
+
+    - Instrumental in building a stable knowledge graph for an enterprise search engine (RAG) worth $2M that recognized drugs, diseases, ﬁrms, and acronyms and established relationships between the entities.
+    
     - Automated ETL pipelines that eliminated 20+ hours of manual work monthly, allowing clients to redirect resources to high-value initiatives
    
 

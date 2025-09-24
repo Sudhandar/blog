@@ -14,10 +14,10 @@
 **Deep Analysis & Planning**
 
 - Design the technical architecture for your specific needs.
-- Create your custom roadmap with specific milestones.
+- Create your working proof of concept demo to showcase the capabilities of the system
 - Plan the implementation timeline
 
-**Deliverable: Strategic Proposal with implementation timeline and ROI projections**
+**Deliverable: Strategic Proposal with Proof of Concept, implementation timeline and ROI projections**
 
 !!! info "This entire phase is provided at no cost to ensure we're the perfect fit before any commitment. Upon approval of the proposal, we proceed with the formal agreement and implementation"
 
@@ -32,10 +32,9 @@
 ### Step 3: Monitor & Handover
 
 - Build Dashboards to monitor system performance, business KPIs and identify areas for improvement.
-- Train your team to operate and improve the systems independently.
-- Handover documentation, system workflow and demo videos for smooth handoff.
+- Never worry about the system again. You get dashboards, documentation, and ongoing support, so even as your team and business evolves, the system keeps running smoothly.
 
-**Deliverable: Complete handover with training, documentation, and 60-day post implementation support**
+**Deliverable: Complete handover with training, documentation, and ongoing support**
 
 If you are interested in working with me, let's jump on a free growth assessment call to see if we're a perfect fit.
 
