@@ -5,11 +5,11 @@
 <div class="profile-content" markdown = "1"> 
 ## Applied AI Consultant
 
-✅ I help premium coaches and professional services with report automation and workflows to save 20 hrs/week
+✅ I help businesses and organizations build production ready generative AI applications that fit their workflows and business metrics.
 
 ✅ Instead of chasing hype, you’ll get measurable solutions that fit your business and workflows.
 
-✅ Never worry about the system again. You get dashboards, documentation, and ongoing support. So, as your team and business change, the system runs smoothly.
+✅ You get dashboards, documentation, and ongoing support. So, as your team and business change, the system runs smoothly.
 
  </div> 
  </div> 
@@ -24,6 +24,7 @@
 
 ## Where I Help You Get To
 
+- **Production ready generative AI applications** that fit your workflows and business metrics.
 - **Automated reports** that give you answers in minutes, not days.
 - **Seamless end-to-end workflows** that connect your tools, cut out duplication, and run automatically
 - **Smooth client delivery** and faster decisions.
@@ -86,7 +87,7 @@ I use my proven 3-step Applied AI approach that takes you from finding the bigge
 
 ## About Me {: #about-me }
 
-I’m Sudhandar Balakrishnan, an Applied AI Consultant who helps premium coaches and professional services save time, reduce burnout, and focus on strategy by building automated workflows and reporting systems.
+I’m Sudhandar Balakrishnan, an Applied AI Consultant who helps businesses and organizations save time, reduce burnout, and focus on strategy by building AI systems.
 
 Before consulting, I worked as a **Data Scientist at Loblaws**, Canada's largest retail and pharmacy chain. There, I led the rollout of a GenAI-powered compliance report that expanded audit coverage from 1,000 to 700,000 forms—saving 30+ hours of manual work and millions in potential fines. 
 
