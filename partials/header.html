@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block header %}
+{{ super() }}
+<div class="header-social">
+  {% for social in config.extra.header_links %}
+    <a href="{{ social.link }}" target="_blank" rel="noopener" title="{{ social.name }}" class="header-social__link">
+      {% include ".icons/" ~ social.icon ~ ".svg" %}
+    </a>
+  {% endfor %}
+</div>
+{% endblock %} 
