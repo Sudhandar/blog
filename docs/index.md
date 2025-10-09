@@ -3,7 +3,7 @@
 <div class="profile-section" markdown>
 <img src="assets/profile.jpg" alt="Sudhandar Balakrishnan" class="profile-photo" align="right">
 <div class="profile-content" markdown = "1"> 
-## Applied AI Consultant
+## Applied AI Implementation
 
 ✅ I help businesses and organizations build production ready generative AI applications that fit their workflows and business metrics.
 
@@ -87,7 +87,7 @@ I use my proven 3-step Applied AI approach that takes you from finding the bigge
 
 ## About Me {: #about-me }
 
-I’m Sudhandar Balakrishnan, an Applied AI Consultant who helps businesses and organizations save time, reduce burnout, and focus on strategy by building AI systems.
+I’m Sudhandar Balakrishnan, an Applied AI Implementation Specialist who helps businesses and organizations save time, reduce burnout, and focus on strategy by building AI systems.
 
 Before consulting, I worked as a **Data Scientist at Loblaws**, Canada's largest retail and pharmacy chain. There, I led the rollout of a GenAI-powered compliance report that expanded audit coverage from 1,000 to 700,000 forms—saving 30+ hours of manual work and millions in potential fines. 
 
